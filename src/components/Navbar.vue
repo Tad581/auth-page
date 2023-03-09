@@ -1,24 +1,23 @@
 <template>
   <nav class="navbar navbar-expand navbar-light fixed-top">
-    <div class="container">
-      <router-link to="/home" class="nav-link">Home</router-link>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto" v-if="!user">
-          <li class="nav-item">
-            <router-link to="/login" class="nav-link">Login</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/sign_up" class="nav-link">Sign up</router-link>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto" v-if="user">
-          <li class="nav-item">
-            <a href="javascript:void(0)" @click="handleLogout" class="nav-link"
-              >Logout</a
-            >
-          </li>
-        </ul>
-      </div>
+    <router-link to="/home" class="nav-link"
+      ><img src="https://i.ibb.co/7SmtMZD/Frame-427319592.png" alt="logo"
+    /></router-link>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto" v-if="!user">
+        <router-link to="/home" class="nav-link"
+          ><img
+            src="https://i.ibb.co/319gct2/circle-user.png"
+            alt="circle-user"
+        /></router-link>
+      </ul>
+      <ul class="navbar-nav ml-auto" v-if="user">
+        <li class="nav-item">
+          <a href="javascript:void(0)" @click="handleLogout" class="nav-link"
+            >Logout</a
+          >
+        </li>
+      </ul>
     </div>
   </nav>
 </template>
@@ -40,3 +39,4 @@ export default {
   },
 };
 </script>
+

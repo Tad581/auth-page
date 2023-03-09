@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import HomeItem from "./components/Home.vue";
-import LoginItem from "./components/Login.vue";
-import RegisterItem from "./components/Register.vue"
+import HomeItem from "../components/Home.vue";
+import LoginItem from "../components/Login.vue";
+import RegisterItem from "../components/Register.vue"
 
 const routes = [
   { path: "/", component: HomeItem },

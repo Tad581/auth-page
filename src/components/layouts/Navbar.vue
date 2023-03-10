@@ -59,6 +59,7 @@ export default {
 
 .navbar .navbar-collapse form {
   min-width: 50%;
+  margin-left: 50px;
 }
 
 .navbar .navbar-collapse form input {

@@ -14,12 +14,12 @@
 import "./styles/css/index.css";
 import axios from "axios";
 import NavbarItem from "./components/layouts/Navbar.vue";
-// import SidebarMenuItem from "./components/layouts/SidebarMenu.vue";
+import SidebarMenuItem from "./components/layouts/SidebarMenu.vue";
 export default {
   name: "App",
   components: {
     NavbarItem,
-    // SidebarMenuItem,
+    SidebarMenuItem,
   },
   data() {
     return {

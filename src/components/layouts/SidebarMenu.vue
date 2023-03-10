@@ -20,7 +20,7 @@
         />
         <span class="text">Trang chủ</span>
       </router-link>
-      <router-link to="/" class="button">
+      <router-link to="/bai-viet" class="button">
         <img
           src="../../styles/img/sidebar/Document.png"
           class="material-icons"
@@ -28,7 +28,7 @@
         />
         <span class="text">Bài viết</span>
       </router-link>
-      <router-link to="/" class="button">
+      <router-link to="/su-kien" class="button">
         <img
           src="../../styles/img/sidebar/Bookmark.png"
           class="material-icons"
@@ -37,7 +37,7 @@
         <span class="text">Sự kiện</span>
         <div class="arrow"></div>
       </router-link>
-      <router-link to="/" class="button">
+      <router-link to="/lich-ngay" class="button">
         <img
           src="../../styles/img/sidebar/date.png"
           class="material-icons"
@@ -45,7 +45,7 @@
         />
         <span class="text">Lịch ngày</span>
       </router-link>
-      <router-link to="/" class="button">
+      <router-link to="/su-kien-tet" class="button">
         <img
           src="../../styles/img/sidebar/pagodas.png"
           class="material-icons"
@@ -53,7 +53,7 @@
         />
         <span class="text">Sự kiện Tết</span>
       </router-link>
-      <router-link to="/" class="button">
+      <router-link to="/thanh-vien" class="button">
         <img
           src="../../styles/img/sidebar/User.png"
           class="material-icons"
@@ -61,7 +61,7 @@
         />
         <span class="text">Thành viên</span>
       </router-link>
-      <router-link to="/" class="button">
+      <router-link to="/cai-dat" class="button">
         <img
           src="../../styles/img/sidebar/Setting.png"
           class="material-icons"
@@ -159,7 +159,7 @@ aside .menu .button .arrow {
 
   border-bottom: 10px solid transparent;
   border-top: 10px solid transparent;
-  border-right: 10px solid var(--background);
+  border-right: 10px solid var(--white);
 
   position: absolute;
   right: 0;

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand navbar-light fixed-top">
     <router-link to="/home" class="nav-link"
-      ><img src="https://i.ibb.co/7SmtMZD/Frame-427319592.png" alt="logo"
+      ><img src="../../styles/img/logo.png" alt="logo"
     /></router-link>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto" v-if="!user">
@@ -39,4 +39,3 @@ export default {
   },
 };
 </script>
-

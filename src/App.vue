@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <Navbar />
+    <!-- <navbar-login /> -->
+    <sidebar-menu-item />
     <div class="auth-wrapper">
       <div class="auth-inner">
         <router-view />
@@ -10,13 +11,15 @@
 </template>
 
 <script>
-import "./styles/css/index.css"
+import "./styles/css/index.css";
 import axios from "axios";
-import Navbar from "./components/Navbar.vue";
+// import NavbarLogin from "./components/layouts/NavbarLogin.vue";
+import SidebarMenuItem from "./components/layouts/SidebarMenu.vue";
 export default {
   name: "App",
   components: {
-    Navbar,
+    // NavbarLogin,
+    SidebarMenuItem,
   },
   data() {
     return {

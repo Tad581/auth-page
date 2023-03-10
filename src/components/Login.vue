@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import axios from "axios";
+// import axios from "axios";
 
 export default {
   name: "LoginItem",
@@ -44,11 +44,11 @@ export default {
   },
   methods: {
     async handleSubmit() {
-      const response = await axios.post("login", this.formData);
-      console.log("response :>> ", response);
+      // const response = await axios.post("login", this.formData);
+      // console.log("response :>> ", response);
 
-      localStorage.setItem("token", response.data.token);
-      this.$store.dispatch("user", response.data.user);
+      // localStorage.setItem("token", response.data.token);
+      // this.$store.dispatch("user", response.data.user);
       this.$router.push("/");
     },
   },

@@ -6,11 +6,15 @@
 :root {
   --primary: #0168A5;
   --white: #ffffff;
+  --sidebar-width: 240px;
+  --sidebar-bg: #23282D;
+  --sidebar-text: #fff;
+  --background: #f3f4f5;
 }
 
 
 body {
-  background: #f3f4f5 !important;
+  background: var(--background) !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;

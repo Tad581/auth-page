@@ -12,6 +12,9 @@
   --background: #f3f4f5;
 }
 
+*:focus {
+  outline: 0 !important;
+}
 
 body {
   background: var(--background) !important;
@@ -44,6 +47,7 @@ html,
 
 #app {
   text-align: center;
+  display: flex;
 }
 
 .navbar-light {

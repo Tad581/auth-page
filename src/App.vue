@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <!-- <navbar-login /> -->
+    <font-awesome-icon icon="fa-solid fa-user-secret" />
+    <navbar-item />
     <sidebar-menu-item />
     <div class="auth-wrapper">
       <div class="auth-inner">
@@ -13,13 +14,13 @@
 <script>
 import "./styles/css/index.css";
 import axios from "axios";
-// import NavbarLogin from "./components/layouts/NavbarLogin.vue";
-import SidebarMenuItem from "./components/layouts/SidebarMenu.vue";
+import NavbarItem from "./components/layouts/Navbar.vue";
+// import SidebarMenuItem from "./components/layouts/SidebarMenu.vue";
 export default {
   name: "App",
   components: {
-    // NavbarLogin,
-    SidebarMenuItem,
+    NavbarItem,
+    // SidebarMenuItem,
   },
   data() {
     return {

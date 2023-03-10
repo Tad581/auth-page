@@ -94,6 +94,7 @@ aside {
   min-height: 100vh;
   padding: 1rem;
   transition: 0.2s ease-in-out;
+  z-index: 2;
 }
 aside .flex {
   flex: 1 1 0%;
@@ -145,6 +146,7 @@ aside .menu .button {
   text-decoration: none;
   transition: 0.2s ease-in-out;
   padding: 0.8rem 1.25rem;
+  position: relative;
 }
 
 aside .menu .button:hover {
@@ -160,7 +162,7 @@ aside .menu .button .arrow {
   border-right: 10px solid var(--background);
 
   position: absolute;
-  left: calc(var(--sidebar-width) - 10px);
+  right: 0;
 }
 
 aside .menu .button .material-icons {

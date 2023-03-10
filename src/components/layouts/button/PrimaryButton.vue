@@ -1,5 +1,7 @@
 <template>
-  <div class="btn">Thêm bài viết</div>
+  <div class="btn">
+    <font-awesome-icon icon="fa-solid fa-plus" />Thêm bài viết
+  </div>
 </template>
 
 <script>
@@ -9,8 +11,12 @@ export default {
 </script>
 
 <style>
-.btn {
+.btn, .btn:hover {
   background-color: var(--primary);
   color: var(--white);
+}
+
+.btn svg {
+    margin-right: 5px;
 }
 </style>

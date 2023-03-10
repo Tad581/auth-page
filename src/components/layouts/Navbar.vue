@@ -17,8 +17,8 @@
           aria-label="Tìm kiếm bài viết"
         />
       </form>
-      <primary-button />
       <ul class="navbar-nav ml-auto">
+        <primary-button />
         <div>Admin</div>
         <router-link to="/home" class="nav-link"
           ><img
@@ -62,10 +62,11 @@ export default {
 }
 
 .navbar .navbar-collapse form input {
-  background-color: var(--background);
+  background-color: #f4f5f5;
   border: none;
   border-radius: 0;
   padding-left: 0;
+  color: #c7c8ca;
 }
 
 .navbar .navbar-collapse form input:focus {
@@ -84,6 +85,7 @@ export default {
 }
 
 .navbar .navbar-collapse .navbar-nav div {
+  margin-left: 20px;
   margin-bottom: 0 !important;
   display: flex;
   align-items: center;

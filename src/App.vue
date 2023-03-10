@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <font-awesome-icon icon="fa-solid fa-user-secret" />
     <navbar-item />
     <sidebar-menu-item />
     <div class="auth-wrapper">
